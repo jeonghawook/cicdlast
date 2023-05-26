@@ -11,7 +11,7 @@ export const typeORMConfig: TypeOrmModuleOptions = {
   port: 5432,
   username: 'postgres',
   password: 'gkdnr8785',
-  database: '',
+  database: 'check_db',
   entities: [Stores, Users, Reviews, Waitings, Tables],
   synchronize: true
 }
