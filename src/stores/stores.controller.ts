@@ -36,7 +36,7 @@ export class StoresController {
     @Get('/locations')
     async getGeolocation(): Promise<any> {
         const geolocationData = await this.storesService.getGeolocation();
-
+        console.log(geolocationData)
         return geolocationData;
     }
 
