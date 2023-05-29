@@ -34,10 +34,10 @@ export class Stores extends BaseEntity {
   @Column()
   currentWaitingCnt: number;
 
-  @Column()
+  @Column('numeric')
   La: number;
 
-  @Column()
+  @Column('numeric')
   Ma: number;
 
   @Column({ default: 60 })
@@ -45,6 +45,9 @@ export class Stores extends BaseEntity {
 
   @Column()
   tableForTwo: number;
+
+  @Column()
+  address: string;
 
   @Column()
   tableForFour: number;

@@ -7,11 +7,11 @@ import { Waitings } from 'src/waitings/waitings.entity';
 
 export const typeORMConfig: TypeOrmModuleOptions = {
   type: 'postgres',
-  host: 'database-1.cyaowhjqxj63.ap-northeast-2.rds.amazonaws.com',
+  host: 'localhost',
   port: 5432,
   username: 'postgres',
-  password: 'gkdnr8785',
-  database: 'check_db',
+  password: '8785',
+  database: '22-project',
   entities: [Stores, Users, Reviews, Waitings, Tables],
   synchronize: true
 }
