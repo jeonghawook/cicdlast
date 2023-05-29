@@ -42,6 +42,13 @@ export class StoresController {
     }
 
 
+    @Get('/returns')
+    async getReturnSample(): Promise<any> {
+        console.log("Check")
+        return "hello"
+    }
+
+
     @Post('/process')
     async processCSV(): Promise<void> {
 
