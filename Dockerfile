@@ -5,4 +5,4 @@ COPY . .
 RUN npm install
 RUN npm run build
 EXPOSE 3300
-CMD ["nest","start"]
+ENTRYPOINT npm run start:prod
