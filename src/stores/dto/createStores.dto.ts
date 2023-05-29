@@ -10,6 +10,7 @@ export class CreateStoresDto {
     currentWaitingCnt: number;
     Ma: number;
     La: number;
+    address: string;
     @IsNotEmpty()
     tableForTwo: number;
     tableForFour: number;
